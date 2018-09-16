@@ -1,0 +1,386 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 09:31:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 20:23:06
+*/
+/* 顶部开始 */
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 2.7rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background:linear-gradient(to right,#ffb027,#faaf49);
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+header .title{
+	width: 100%;
+	height: 0.6rem;
+	color: #fff;
+	/* background: red; */
+}
+header .information{
+	width: 100%;
+	height: 2.1rem;
+	/* background: yellow; */
+	display: flex;
+	justify-content: flex-end;
+}
+header .title ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.34rem;
+	line-height: 0.6rem;
+}
+header .title ul li i{
+	font-size: 0.34rem;
+	color: #fff;
+}
+header .information .picture{
+	padding-top: 0.15rem;
+}
+header .information .picture img{
+	width: 1.81rem;
+	height: 1.81rem;
+}
+header .information .text{
+	width: 4.56rem;
+	height: 100%;
+	/* background: orange; */
+	padding: 0.24rem 0 0.24rem 0.38rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #fff;
+}
+header .information .text .score{
+	width: 100%;
+	font-size: 0.22rem;
+}
+header .information .text .benefit{
+	width: 100%;
+	font-size: 0.22rem;
+	font-weight: 200;
+}
+header .information .text .reduce{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+
+}
+header .information .text .member{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+
+}
+header .information .text .box{
+	width: 0.6rem;
+	height: 0.3rem;
+	border: 0.02rem solid #d7112d;
+	border-radius: 0.15rem;
+	font-size: 0.18rem;
+	font-weight: 100;
+	text-align: center;
+	line-height: 0.26rem;
+	margin-right: 0.1rem;
+}
+
+header .information .text p{
+	font-size: 0.20rem;
+	font-weight: 100;
+	line-height: 0.3rem;
+}
+/* 顶部结束 */
+
+
+/* 中间开始 */
+main{
+	width: 100%;
+	height: 100%;
+	/* background: blue; */
+	margin-top: 2.7rem;
+	margin-bottom: 1rem;
+	
+}
+main .list{
+	width: 2.30rem;
+	height: 5.28rem;
+	/* background: pink; */
+	float: left;
+	overflow: scroll;
+}
+main .list ul li{
+	width: 100%;
+	height: 0.88rem;
+	background: #e2e2e2;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.88rem;
+}
+main .list ul li i.icon-rexiaotuijian{
+	color: #ee3c3c;
+	font-size: 0.28rem;
+}
+main .list ul li:nth-child(1){
+	background: #fff;
+}
+main .content{
+	width: calc(100% - 2.30rem);
+	height: calc(100% - 3.7rem);
+	/* background: yellow; */
+	float: left;
+	overflow: scroll;
+	padding: 0.24rem;
+}
+main .content ul li{
+	width: 100%;
+	height: 1.57rem;
+	background: #fff;
+	box-shadow: 0 0.04rem 0.25rem 0.01rem rgba(250, 175, 70, 0.5);
+	margin-bottom: 0.24rem;
+	padding: 0.15rem 0 0.15rem 0.15rem;
+}
+main .content ul li .photo{
+	float: left;
+}
+main .content ul li .photo img{
+	width: 1.27rem;
+	height: 1.27rem;
+	margin-right: 0.12rem;
+}
+main .content ul li .name{
+	width: calc(100% - 1.54rem);
+	height: 1.27rem;
+	/* background: pink; */
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+main .content ul li .name h5{
+	font-size: 0.24rem;
+}
+main .content ul li .name p{
+	font-size: 0.2rem;
+	font-weight: 200;
+	color: #6e6e6e;
+}
+main .content ul li .name .num{
+	font-size: 0.28rem;
+	color: #d7112d;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.1rem;
+
+}
+main .content ul li .name .num .price{
+	display: flex;
+}
+main .content ul li .name .num .price span{
+	font-size: 0.28rem;
+	color: #d7112d;
+	
+}
+main .content ul li .name .num .price .rmb{
+	font-size: 0.18rem;
+	color: #d7112d;
+	padding-top: 0.12rem;
+	
+}
+main .content ul li .name .num .add{
+	width: 0.30rem;
+	height: 0.30rem;
+	border-radius: 0.15rem;
+	background: #db3e4f;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.25rem;
+}
+main .content ul li .name .num .reduce{
+	width: 0.30rem;
+	height: 0.30rem;
+	border-radius: 0.15rem;
+	background: #db3e4f;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.25rem;
+	margin-left: 0.6rem;
+	
+}
+/* 中间结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+footer .bottom{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 -0.05rem 0.25rem 0.01rem rgba(221, 221, 221, 0.6);
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 0.24rem 0;
+	position: relative;
+}
+footer .bottom .car{
+	width: 0.64rem;
+	height: 0.64rem;
+	background: #fcaf39;
+	border-radius: 0.32rem;
+	position: absolute;
+	top: -0.2rem;
+	left: 0.35rem;
+}
+footer .bottom .buy{
+	width: 2.96rem;
+	height: 100%;
+	/* background: red; */
+	font-size: 0.18rem;
+	line-height: 0.44rem;
+	color: #dc3f50;
+}
+footer .bottom .pay{
+	width: 2.86rem;
+	height: 100%;
+	background: #fcaf39;
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+	text-align: center;
+	border-radius: 0.06rem;
+	color: #fff;
+	
+}
+footer .bottom .buy span{
+	font-size: 0.28rem;
+}
+footer .bottom .car i.icon-gouwuche{
+	font-size: 0.3rem;
+	display: block;
+	color: #fff;
+	text-align: center;
+	line-height: 0.64rem;
+}
+/* 底部结束 */
+
+/* 遮罩开始 */
+.shade{
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.shade .tag{
+	width: 5rem;
+	height: 6rem;
+	background: #fcbe38;
+	margin: 2rem auto;
+	border-radius: 0.25rem;
+}
+.shade .tag .top img{
+	display: block;
+	width: 5rem;
+	height: 3.57rem;
+}
+.shade .tag .bottom{
+	width: 100%;
+	height: 2.43rem;
+	padding: 0.24rem;
+	position: relative;
+}
+.shade .tag .bottom p{
+	font-size: 0.3rem;
+	font-weight: 600;
+}
+.shade .tag .bottom h6{
+	font-size: 0.22rem;
+	color: #575757;
+}
+
+.shade .tag .bottom .num{
+	width: 2.2rem;
+	font-size: 0.28rem;
+	color: #d7112d;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.shade .tag .bottom .num .price{
+	display: flex;
+	font-size: 0.3rem;
+	font-weight: 600;
+	color: #db3e4f;
+}
+.shade .tag .bottom .num .price span{
+	font-size: 0.30rem;
+	color: #db3e4f;	
+}
+.shade .tag .bottom .num .price .rmb{
+	font-size: 0.18rem;
+	color: #db3e4f;
+	padding-top: 0.12rem;
+	
+}
+.shade .tag .bottom .num .label{
+	display: flex;
+	width: 1.08rem;
+	justify-content: space-between;
+	color: #db3e4f;
+}
+.shade .tag .bottom .num .add{
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 0.2rem;
+	background: #db3e4f;
+	color: #fff;
+	font-size: 0.3rem;
+	font-weight: 600;
+	text-align: center;
+	line-height: 0.30rem;
+}
+.shade .tag .bottom .num .reduce{
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 0.2rem;
+	background: #db3e4f;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.25rem;	
+}
+
+.shade .tag .bottom .ok{
+	width: 1.83rem;
+	height: 0.47rem;
+	border-radius: 0.25rem;
+	background: #fff;
+	color: #db3e4f;
+	font-size: 0.28rem;
+	font-weight: 600;
+	text-align: center;
+	line-height: 0.47rem;
+	position: absolute;
+	right: 0.24rem;
+	bottom: 0.3rem;
+}
+/* 遮罩结束 */

@@ -1,0 +1,395 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-11 22:34:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-12 02:03:34
+*/
+body,html{
+	width: 100%;
+	height: 100%;
+}
+/* 顶部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background:linear-gradient(to right,#ffb027,#faaf49);
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+header .title{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+
+	/* background: red; */
+}
+header .title ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.34rem;
+	line-height: 0.92rem;
+}
+header .title ul li i{
+	font-size: 0.34rem;
+	color: #fff;
+}
+/* 顶部结束 */
+
+/* 商品图开始 */
+.picture{
+	width: 100%;
+	height: 3.82rem;
+	padding: 0.24rem;
+}
+.picture img{
+	width: 100%;
+	height: 100%;
+}
+/* 商品图结束 */
+
+/* 产品介绍开始 */
+.introduce{
+	width: 100%;
+	height: 1.16rem;
+	padding: 0 0.24rem;
+}
+.introduce .name{
+	height: 0.28rem;
+	display: flex;
+	justify-content: flex-start;
+	line-height: 0.28rem;
+}
+.introduce .name .chicken{
+	font-size: 0.26rem;
+	color: #333;
+	margin-right: 0.72rem;
+}
+.introduce .name .hot{
+	width: 0.82rem;
+	height: 0.28rem;
+	border: 0.03rem solid #ffcc32;
+	border-radius: 0.14rem;
+	line-height: 0.24rem;
+	text-align: center;
+	font-size: 0.18rem;
+	font-weight: 300;
+	color: #ff7b2b;
+}
+.introduce p.point{
+	font-size: 0.2rem;
+	color: #aeaeae;
+	line-height: 0.24rem;
+}
+.introduce p.word{
+	font-size: 0.22rem;
+	color: #5e5e5e;
+	line-height: 0.22rem;
+}
+.introduce .level{
+	width: 100%;
+	height: 0.66rem;
+	/* background: red; */
+	padding: 0.08rem 0 0.24rem 0;
+	display: flex;
+	justify-content: flex-start;
+}
+.introduce .level .star{
+	display: flex;
+	font-size: 0.34rem;
+	color: #ffcc32;
+	line-height: 0.34rem;
+}
+.introduce .level .star p{
+	color: #fff0c1;
+	margin-right: 0.05rem;
+}
+.introduce .level .num{
+	width: 0.58rem;
+	height: 0.26rem;
+	border: 0.02rem solid #fdaf35;
+	border-radius: 0.15rem;
+	line-height: 0.26rem;
+	text-align: center;
+	font-size: 0.18rem;
+	color: #333;
+	margin-top: 0.06rem;
+	margin-right: 2.32rem;
+}
+.introduce .level .price{
+	font-size: 0.3rem;
+	color: #ff9963;
+	line-height: 0.3rem;
+	display: flex;
+}
+.introduce .level .price p{
+	font-size: 0.2rem;
+	margin-top: 0.04rem;
+}
+/* 产品介绍结束 */
+
+/* 配菜开始 */
+.vegetable{
+	width: 100%;
+	height: 1.16rem;
+	padding: 0.24rem;
+	/* background: red; */
+}
+.vegetable .title{
+	width: 100%;
+	height: 100%;
+}
+.vegetable .title img{
+	width: 0.96rem;
+	height: 0.38rem;
+	display: block;
+}
+.vegetable .title p{
+	font-size: 0.22rem;
+	color: #5e5e5e;
+	font-weight: 300;
+}
+/* 配菜结束 */
+
+/* 客户评价开始 */
+.evaluation{
+	width: 100%;
+	height: 2.54rem;
+	padding: 0 0.24rem;
+}
+.evaluation img{
+	width: 2.25rem;
+	height: 0.32rem;
+	display: block;
+}
+.evaluation .service{
+	width: 100%;
+	height: 0.44rem;
+	padding: 0.12rem 0 0.12rem;
+	display: flex;
+}
+.evaluation .eva{
+	width: 100%;
+	height: 0.32rem;
+	padding: 0 0 0.12rem;
+	display: flex;
+}
+.evaluation .attitude{
+	font-size: 0.2rem;
+	font-weight: 400;
+	color: #5e5e5e;
+	margin-right: 0.18rem;
+	line-height: 0.2rem;
+}
+.evaluation .star{
+	font-size: 0.2rem;
+	display: flex;
+	color: #ffcc32;
+	line-height: 0.2rem;
+	line-height: 0.2rem;
+}
+.evaluation .star p{
+	color: #fff0c1;
+}
+
+.evaluation .user{
+	width: 100%;
+	height: 1.1rem;
+	background: #f8f8f8;
+	border: 0.01rem solid #e9e9e9;
+	border-radius: 0.1rem;
+	display: flex;
+}
+.evaluation .user .left{
+	width: 0.65rem;
+	height: 100%;
+	padding-top: 0.1rem;
+	padding-left: 0.16rem;
+}
+.evaluation .user .left img{
+	display: block;
+	width: 0.49rem;
+	height: 0.49rem;
+}
+
+.evaluation .user .center{
+	width: 5.35rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 0.18rem;
+}
+.evaluation .user .center h5{
+	font-size: 0.18rem;
+	font-weight: 400;
+	color: #6a6a69;
+}
+.evaluation .user .center .star{
+	font-size: 0.21rem;
+	font-weight: 400;
+	color: #ffcc32;
+}
+.evaluation .user .center .star p{
+	display: flex;
+	color: #fff0c1;
+	margin-right: 0.14rem;
+}
+.evaluation .user .center h3{
+	font-size: 0.22rem;
+	color: #3c3838;
+	font-weight: 500;
+}
+
+.evaluation .user .right{
+	width: 1.02rem;
+	height: 100%;
+	font-size: 0.18rem;
+	font-weight: 400;
+	padding-top: 0.3rem;
+	color: #797979;
+}
+
+.evaluation .more{
+	width: 1rem;
+	height: 0.28rem;
+	background: #ffcc32;
+	border-radius: 0.14rem;
+	margin: 0.08rem auto 0;
+	font-size: 0.18rem;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	line-height: 0.28rem;
+}
+/* 客户评价结束 */
+
+/* 商品推荐开始 */
+.recommend{
+	width: 100%;
+	height: 8.67rem;
+	padding: 0.24rem;
+	margin-bottom: 1rem;
+}
+.recommend .pic{
+	width: 100%;
+	height: 0.32rem;
+	margin-bottom: 0.3rem;
+}
+.recommend .pic img{
+	display: block;
+	width: 1.9rem;
+	height: 0.32rem;
+}
+.recommend .box{
+	width: 100%;
+	height: 7.80rem;
+	
+}
+.recommend .box ul{
+	width: 100%;
+	height: 3.9rem;
+	padding-bottom: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	/* background: blue; */
+}
+.recommend .box ul li{
+	width: 3.34rem;
+	height: 100%;
+	/* background: red; */
+	border-radius: 0 0 0.1rem 0.1rem;
+	box-shadow: 0 0.04rem 0.25rem 0.01rem rgba(250, 175, 70, 0.5);
+}
+.recommend .box ul li .photo{
+	width: 3.34rem;
+	height: 2.21rem;
+}
+.recommend .box ul li .photo img{
+	display: block;
+	width: 3.34rem;
+	height: 2.21rem;
+}
+.recommend .box ul li .word{
+	width: 100%;
+	height: 1.45rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.recommend .box ul li .word h5{
+	font-size: 0.28rem;
+	font-weight: 400;
+	color: #333;
+}
+.recommend .box ul li .word h6{
+	font-size: 0.20rem;
+	font-weight: 200;
+	color: #696969;
+}
+.recommend .box ul li .word h4{
+	display: flex;
+	font-size: 0.3rem;
+	font-weight: 500;
+	color: #ff9963;
+}
+.recommend .box ul li .word h4 p{
+	font-size: 0.2rem;
+	margin-top: 0.1rem;
+}
+/* 商品推荐结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+}
+footer .bottom{
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 -0.05rem 0.25rem 0.01rem rgba(221, 221, 221, 0.6);
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 0.24rem 0;
+	position: relative;
+}
+footer .bottom .car{
+	width: 0.64rem;
+	height: 0.64rem;
+	background: #9f9d9e;
+	border-radius: 0.32rem;
+	position: absolute;
+	top: -0.2rem;
+	left: 0.35rem;
+}
+footer .bottom .buy{
+	width: 2.96rem;
+	height: 100%;
+	/* background: red; */
+	font-size: 0.18rem;
+	line-height: 0.44rem;
+}
+footer .bottom .pay{
+	width: 2.86rem;
+	height: 100%;
+	background: #333333;
+	font-size: 0.26rem;
+	line-height: 0.88rem;
+	text-align: center;
+	border-radius: 0.06rem;
+	color: #fff;
+}
+footer .bottom .car i.icon-gouwuche{
+	font-size: 0.3rem;
+	display: block;
+	color: #fff;
+	text-align: center;
+	line-height: 0.64rem;
+}
+/* 底部结束 */

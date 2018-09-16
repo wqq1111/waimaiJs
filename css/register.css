@@ -1,0 +1,284 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-14 09:23:28
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 22:48:21
+*/
+
+body{
+	background-image: url('../img/login-background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* 注册按钮开始 */
+.bottom{
+	width: 100%;
+	padding: 0.24rem;
+	text-align: right;
+}
+.bottom button{
+	width: 1.18rem;
+	height: 0.39rem;
+	border-radius: 0.2rem;
+	font-size: 0.26rem;
+	font-weight: 500;
+	color: #fff;
+	border: none;
+	text-align: center;
+	line-height: 0.39rem;
+	background: #fcaf3c;
+	display: inline-block;
+	padding: 0;
+}
+/* 注册按钮结束 */
+
+
+/* 输入用户名、密码开始 */
+.info{
+	width: 100%;
+	height: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0.24rem;
+	margin-top: 4.6rem;
+	/* background: red; */
+}
+.info .username{
+	width: 100%;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.info .username .top{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.info .username .top img{
+	width: 0.37rem;
+	height: 0.1rem;
+	margin-right: 0.1rem;
+	display: block;
+}
+.info .username .top p{
+	font-size: 0.2rem;
+	color: #fbaf40;
+	font-weight: 600;
+}
+.info .username .second{
+	height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.info .username .second .label img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.1rem;
+}
+.info .username .second input{
+	height: 0.4rem;
+	width: 2.8rem;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+	outline: none;
+}
+.info .username .second p{
+	font-size: 0.18rem;
+	font-weight: 500;
+	color: #fbaf40;
+	width: 2.1rem;
+}
+
+.info .point{
+	line-height: 0.3rem;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	font-size: 0.2rem;
+	font-weight: 400;
+	color: #e5e5e5;
+}
+.info .username .second #right{
+	position: absolute;
+	right:2.6rem;
+	top:0.1rem;
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+	display: none;
+}
+
+
+
+.info .password{
+	width: 100%;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.info .password .top{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.info .password .top img{
+	width: 0.37rem;
+	height: 0.1rem;
+	margin-right: 0.1rem;
+	display: block;
+}
+.info .password .top p{
+	font-size: 0.2rem;
+	color: #fbaf40;
+	font-weight: 600;
+
+}
+.info .password .second{
+	height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.info .password .second .label img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.1rem;
+}
+.info .password .second input{
+	height: 0.4rem;
+	width: 2.8rem;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+	outline: none;
+}
+.info .password .second p{
+	width: 1.81rem;
+	height: 0.49rem;
+	background: #fa3737;
+	border-radius: 0.1rem;
+	font-size: 0.18rem;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	line-height: 0.49rem;
+	width: 2.1rem;
+}
+.info .password .second #right{
+	position: absolute;
+	right:2.6rem;
+	top:0.1rem;
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+	display: none;
+}
+
+
+
+.info .again{
+	width: 100%;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.info .again .top{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.info .again .top img{
+	width: 0.37rem;
+	height: 0.1rem;
+	margin-right: 0.1rem;
+	display: block;
+}
+.info .again .top p{
+	font-size: 0.2rem;
+	color: #fbaf40;
+	font-weight: 600;
+}
+.info .again .second{
+	height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.info .again .second .label img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.1rem;
+}
+.info .again .second input{
+	height: 0.4rem;
+	width: 3.2rem;
+	display: block;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+	outline: none;
+}
+.info .again .second p{
+	font-size: 0.18rem;
+	font-weight: 500;
+	color: #fbaf40;
+	width: 2.1rem;
+}
+.info .again .second #right{
+	position: absolute;
+	right:2.6rem;
+	top:0.1rem;
+	display: block;
+	width: 0.3rem;
+	height: 0.3rem;
+	display: none;
+}
+
+.info .li-top-right{
+	/*display: flex;*/
+	/*justify-content: end;*/
+}
+.info .li-top-right img#prompt{
+	display: block;
+	width: auto;
+	height:0.46rem;
+	margin-left: 0.4rem;
+}
+.info .erroy1{
+	display: block;
+	display: none;
+}
+.info .erroy2{
+	display: block;
+	display: none;
+}
+/* 输入用户名、密码结束 */
+
+
+/* 登录按钮开始 */
+.register{
+	display: block;
+	width: 100%;
+	margin: 0.3rem  auto;
+	width: 1.95rem;
+	height: 0.65rem;
+	border-radius: 0.3rem;
+	background: #434343;
+	color: #fff;
+	font-size: 0.28rem;
+	font-weight: 600;
+	text-align: center;
+	line-height: 0.65rem;
+	outline: none;
+	border:none;
+}
+.active{
+	background: #fcaf3c;
+}
+/* 登录按钮结束 */
+
+
