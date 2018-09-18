@@ -18,6 +18,7 @@ window.onload=function(){
 	console.log(add,reduce,count,text,red,total);
 
         let num=0;
+
         add.onclick=function () {
         	num++;
             reduce.style.display="block";
@@ -26,15 +27,19 @@ window.onload=function(){
 			black.style.display="none";
 			red.style.display="block";
 			total.innerHTML=3.5*num;
-			car.style.background="#fcaf39";
-			send.style.color="#dc3f50";
-			pay.style.background="#fcaf39";
-			//遮罩显示
-            pay.onclick=function () {
-                shade.style.display="block";
-				shadeC.innerHTML=num;
-				shadeP.innerHTML=total.innerHTML;
+            if(total.innerHTML>=20){
+                car.style.background="#fcaf39";
+                send.style.color="#dc3f50";
+                pay.style.background="#fcaf39";
+                //遮罩显示
+                pay.onclick=function () {
+                    shade.style.display="block";
+                    shadeC.innerHTML=num;
+                    shadeP.innerHTML=total.innerHTML;
+                }
             }
+
+
 
         }
         reduce.onclick=function () {
@@ -50,6 +55,7 @@ window.onload=function(){
             }
             count.innerHTML=num;
             total.innerHTML=3.5*num;
+
         }
 
         //遮罩效果
@@ -60,11 +66,14 @@ window.onload=function(){
         shadeP.innerHTML=3.5*num;
     }
     shadeR.onclick=function () {
-        if(num==1){
-            shade.style.display="none";
-        }
+        // if(num==1){
+        //     shade.style.display="none";
+        // }
         shadeC.innerHTML=--num;
         shadeP.innerHTML=3.5*num;
+        if(shadeP.innerHTML<20){
+            shade.style.display="none";
+        }
     }
 
 

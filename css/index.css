@@ -349,13 +349,29 @@ nav main ul li img{
 .bottom ul li{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
-	justify-content: space-around;
+}
+a{
+	text-decoration: none;
+}
+.bottom ul li h5{
 	font-size: 0.22rem;
+	color:#000000;
+	font-weight: 300;
 
 }
-.bottom ul li img{
-	width: 0.42rem;
-	height: 0.36rem;
+.bottom ul li i{
+	font-size: 0.45rem;
+	color:#000000;
 }
+.bottom ul li h5.yanse{
+	color: #fecd32;
+
+}
+.bottom ul li i.yanse{
+	color: #fecd32;
+
+}
+
 /* 底部结束 */
